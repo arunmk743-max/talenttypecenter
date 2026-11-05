@@ -1,0 +1,146 @@
+// Public starting content. Private records are never seeded.
+export const defaults: Record<string, any> = {
+  "ttc_settings": {
+    "addressEng": "KTK Complex, 2nd Floor, Bus Stand Backside, Surandai - 627859",
+    "addressTamil": "கே.டி.கே காம்ப்ளக்ஸ், 2-வது மாடி, பேருந்து நிலையம் பின்புறம், சுரண்டை - 627859",
+    "phone": "7558162374",
+    "email": "talenttypecenter@gmail.com"
+  },
+  "ttc_batches": [
+    {
+      "id": "b_1",
+      "name": "Early Morning Batch",
+      "tamil": "அதிகாலை வகுப்பு (மாணவர்கள் & வேலைக்குச் செல்வோர்)",
+      "timing": "6:30 AM - 8:30 AM",
+      "slots": "15 Desks Available",
+      "category": "Morning",
+      "badgeBg": "bg-blue-100 text-blue-800"
+    },
+    {
+      "id": "b_2",
+      "name": "Late Morning Batch",
+      "tamil": "காலை வகுப்பு (கல்லூரி மாணவ, மாணவியர்)",
+      "timing": "8:30 AM - 10:30 AM",
+      "slots": "12 Desks Available",
+      "category": "Morning",
+      "badgeBg": "bg-blue-100 text-blue-800"
+    },
+    {
+      "id": "b_3",
+      "name": "Midday Flexible Batch",
+      "tamil": "மதிய வகுப்பு (இல்லத்தரசிகள் & தனிப்பயிற்சி)",
+      "timing": "11:00 AM - 3:00 PM",
+      "slots": "20 Desks Available",
+      "category": "Daytime",
+      "badgeBg": "bg-amber-100 text-amber-800"
+    },
+    {
+      "id": "b_4",
+      "name": "Prime Evening Batch",
+      "tamil": "மாலை முதன்மை வகுப்பு (TNPSC குரூப்-4 தேர்வவர்கள்)",
+      "timing": "4:00 PM - 8:30 PM",
+      "slots": "Limited 10 Desks",
+      "category": "Evening",
+      "badgeBg": "bg-emerald-100 text-emerald-800"
+    }
+  ],
+  "ttc_courses": [
+    {
+      "id": "course_1",
+      "title": "English Typewriting Junior",
+      "tamil": "ஆங்கில தட்டச்சு இளநிலை (30 WPM)",
+      "fee": "₹500 / Month",
+      "duration": "6 Months",
+      "points": [
+        "10-Minute Official Speed Drills (1w=5s)",
+        "Paper 2 Tabulation & Govt Letters",
+        "DOTE Approved Technical Syllabus"
+      ]
+    },
+    {
+      "id": "course_2",
+      "title": "English Typewriting Senior",
+      "tamil": "ஆங்கில தட்டச்சு முதுநிலை (45 WPM)",
+      "fee": "₹500 / Month",
+      "duration": "6 Months",
+      "points": [
+        "45 WPM High Speed Transcription",
+        "Parliamentary & Budget Reports",
+        "Eligible for TNPSC Typist Recruitment"
+      ]
+    },
+    {
+      "id": "course_3",
+      "title": "Tamil Typewriting (Junior / Senior)",
+      "tamil": "தமிழ் தட்டச்சு (இளநிலை & முதுநிலை)",
+      "fee": "₹550 / Month",
+      "duration": "6 Months",
+      "points": [
+        "Tamil Standard Typewriter Keyboard",
+        "Essential for Group 4 / Steno-Typist",
+        "Daily Speed Passages with Error Analysis"
+      ]
+    },
+    {
+      "id": "course_4",
+      "title": "Computer on Office Automation (COA)",
+      "tamil": "அரசு கணினி ஆட்டோமேஷன் சான்றிதழ்",
+      "fee": "₹1,200 / Month",
+      "duration": "3 Months",
+      "points": [
+        "DOTE Recognized Computer Certification",
+        "MS Word, Excel, PowerPoint, Calc",
+        "Practical Lab & Theory Coaching"
+      ]
+    },
+    {
+      "id": "course_5",
+      "title": "Tally Prime with GST & DCA",
+      "tamil": "டேலி பிரைம் & பட்டயக் கணினிப் பயிற்சி",
+      "fee": "₹800 / Month",
+      "duration": "3 Months",
+      "points": [
+        "GST Invoicing, Ledger & Taxation",
+        "Banking and Financial Accounting",
+        "Practical Certification"
+      ]
+    }
+  ],
+  "ttc_passages": [
+    {
+      "id": "p_j1",
+      "grade": "junior",
+      "title": "Junior Passage 1 - Education & Career",
+      "words": 300,
+      "targetStrokes": 1500,
+      "text": "Education is the most powerful weapon which you can use to change the world. It is the key to unlock the golden door of freedom. In the modern age, knowledge is power and training in technical skills plays a vital role in national development. Typewriting and computer operations are fundamental requirements for government administration as well as private business houses. A skilled typist with good accuracy and speed can handle correspondence, reports, statements, and documentation with great efficiency.\n\nStudents who prepare for the technical examinations conducted by the department of technical education must cultivate systematic work habits. Regular practice every day develops muscle memory in fingers and helps to gain proper rhythm. When typing on a manual machine or computer keyboard, one should sit erect with feet flat on the floor. The eyes should always be fixed on the copy and never on the keyboard.\n\nAccuracy must always be preferred to mere speed. If a candidate attempts to type too fast before mastering the positions of keys, errors will multiply rapidly. Under official rules, one word is reckoned as equal to five strokes including spaces. Candidates must practice continuously to achieve thirty words per minute with minimum mistakes to secure distinction in the junior grade examination."
+    },
+    {
+      "id": "p_j2",
+      "grade": "junior",
+      "title": "Junior Passage 2 - Science & Society",
+      "words": 300,
+      "targetStrokes": 1500,
+      "text": "Science and technology have brought about incredible transformations in the daily lives of human beings. From simple hand tools to super computers, the progress made by human intellect has eliminated distances and connected the world together. Modern transportation and digital communication systems have made travel and trade faster and more convenient than ever before in human history.\n\nIn government offices and administrative headquarters, written communication forms the backbone of decision making. Every decision, policy change, and circular must be recorded in writing with absolute clarity and precision. A competent typist ensures that confidential files and public petitions are typed without typographical mistakes. This enhances the prestige and efficiency of the administration and saves valuable public time.\n\nTo become proficient in typing, students must follow standard fingering rules strictly. Never look at the keys while typing, because touch method of typing depends entirely on physical intuition and muscle memory. The space bar must be struck with the right thumb lightly and released immediately. Candidates are strongly advised to keep a calm mind during examinations so that speed flows naturally without hesitation."
+    },
+    {
+      "id": "p_s1",
+      "grade": "senior",
+      "title": "Senior Passage 1 - Legislative Budget Address",
+      "words": 450,
+      "targetStrokes": 2250,
+      "text": "Mr. Speaker, Sir, I rise to present the budget proposals for the forthcoming financial year with a deep sense of responsibility towards our citizens. Over the last decade, our economic foundation has grown steadily despite various challenges arising from global fluctuations. Agriculture remains the backbone of our rural economy, and we have taken several measures to ensure that farmers receive adequate credit, high quality seeds, and modern irrigation facilities. When rural families prosper, the purchasing power of the nation expands, creating vibrant demand for industrial goods and commercial services.\n\nAt the same time, we cannot ignore the growing importance of industrialization and technical education. Modern industries require a workforce equipped with specialized technical expertise. Therefore, the government has allocated substantial funds for establishing new polytechnic colleges and industrial training institutes across all districts. Special emphasis is being laid on vocational training programs such as typewriting, shorthand, and computerized office automation. These practical courses empower thousands of young men and women from rural areas to secure respectable employment in government departments and commercial enterprises.\n\nIn regard to public infrastructure, our road connectivity programs have linked remote villages to commercial trading centres and seaports. Electricity generation has reached record levels, ensuring round the clock power supply to both factories and agricultural pumps. Furthermore, healthcare services have been modernized through district level hospitals equipped with advanced diagnostic equipment and qualified medical staff.\n\nThe welfare of backward classes and downtrodden sections of society has always received our foremost attention. Scholarships, hostel facilities, and skill development schemes continue to be provided without interruption. Our youth represent our greatest asset, and it is our sacred duty to provide them with the best educational and economic opportunities.\n\nWith these few words, Sir, I commend these budget proposals to the unanimous acceptance of this august house, confident that they will accelerate the pace of economic development and social justice in our state."
+    },
+    {
+      "id": "p_h1",
+      "grade": "high",
+      "title": "High Speed Passage 1 - National Commerce & Governance",
+      "words": 600,
+      "targetStrokes": 3000,
+      "text": "Ladies and gentlemen, it gives me immense pleasure to address this distinguished gathering on the occasion of the annual conference of commerce and industrial management. We are living in an era characterized by unprecedented technological transformation and rapid globalization. Commercial organizations that fail to adapt to modern methods of administration and communication will inevitably be left behind in the competitive arena. In this context, accuracy, speed, and systematic organization of administrative documentation have acquired vital significance.\n\nAdministrative efficiency depends to a remarkable degree on the quality and competence of secretarial personnel. A well trained typist and computer operator is not merely a recorder of words, but an indispensable link in the executive decision making apparatus. The ability to produce clean, legible, and faultless correspondence within strictly defined deadlines is a hallmark of professional excellence. Government departments, judicial courts, legislative assemblies, and corporate conglomerates all require high speed transcription to preserve public records and transmit administrative instructions with promptness.\n\nTo achieve sixty words per minute, which represents three thousand strokes in ten minutes under official technical standards, demands relentless concentration and flawless fingering technique. There is no shortcut to master high speed typing. It requires long hours of rigorous drills, mental calmness, and an unwavering focus on the copy. The typist must maintain a relaxed posture, regular rhythm, and steady breathing throughout the entire duration of the test. An error of a single stroke or omission of a punctuation mark can alter the entire meaning of an official document.\n\nFurthermore, we must recognize that technical skills must be blended with integrity and devotion to duty. The files and documents handled by administrative assistants often contain sensitive and confidential information regarding public policy and corporate strategy. Professional secrecy and honesty are as essential as technical dexterity. Our educational and commercial institutions have a profound responsibility to instill high ethical values alongside professional proficiency.\n\nOur country possesses a vast reservoir of youthful talent. If their energy is channelled into constructive and disciplined vocational vocations, there is no limit to what our nation can achieve. Let us rededicate ourselves to the noble task of building a technically proficient and morally upright generation that will lead our nation into an era of prosperity and progress. Thank you one and all."
+    }
+  ],
+  "ttc_students": [],
+  "ttc_attendance": [],
+  "ttc_outbox_reports": []
+};
